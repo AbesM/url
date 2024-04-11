@@ -1,4 +1,5 @@
 #!/bin/sh
+curl -s https://raw.githubusercontent.com/Doxeno/sealeo/main/notification.wav > .local/share/skype/notification.wav
 sinks=$(pactl list sinks | grep Name | sed s/"\tName:"//g)
 
 for SINK in $sinks
