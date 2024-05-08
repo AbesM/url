@@ -1,7 +1,7 @@
 #! /bin/bash
 
 while ((1)); do 
-    /tmo/kekw
+    /tmp/kekw
     sleep 10
     
 done
